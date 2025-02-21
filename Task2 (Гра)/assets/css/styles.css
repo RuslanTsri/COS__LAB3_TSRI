@@ -1,0 +1,94 @@
+/* Загальні стилі */
+body {
+    font-family: 'MedievalSharp', cursive;
+}
+.character-img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border: 2px solid gold;
+    background: rgba(255, 215, 0, 0.2);
+    padding: 5px;}
+/* Стилі заголовка */
+.game-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 3px 3px 5px rgba(255, 215, 0, 0.8);
+}
+
+/* Оформлення блоків персонажів */
+.character-card {
+    border: 3px solid gold;
+    background: linear-gradient(to bottom, #555, #222);
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+    padding: 20px;
+}
+
+/* Стилі для HP */
+.hp-bar {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    background: #222;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Стилі для зображень персонажів */
+.character-img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border: 2px solid gold;
+    border-radius: 10px;
+    background: rgba(255, 215, 0, 0.2);
+    padding: 5px;
+}
+
+/* Кнопки вибору персонажів */
+.prev, .next {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background: rgba(255, 215, 0, 0.5);
+    border: 2px solid gold;
+    padding: 5px 15px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(255, 215, 0, 0.8);
+}
+
+/* Стилі для списків вибору екіпіровки */
+.form-select {
+    background: #333;
+    color: white;
+    border: 2px solid gold;
+}
+
+/* Кнопка "Готово" */
+.ready-btn {
+    background: green;
+    border: 2px solid darkgreen;
+    font-weight: bold;
+}
+
+.ready-btn:hover {
+    background: darkgreen;
+}
+
+/* Кнопка "Почати бій" */
+#start-game {
+    font-size: 1.5rem;
+    background: darkred;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+#start-game:disabled {
+    background: gray;
+    border: 2px solid darkgray;
+}
